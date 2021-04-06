@@ -3,6 +3,6 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        WebWordCountController.operate("https://www.simbirsoft.com/");
+        WebWordCountController.operate(args[0]);
     }
 }
