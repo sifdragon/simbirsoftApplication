@@ -1,10 +1,8 @@
 import controller.WebWordCountController;
-import data.Word;
-
-import java.util.*;
+import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
-        WebWordCountController.operate(args[0]);
+    public static void main(String[] args) throws IOException {
+        WebWordCountController.operate("https://www.simbirsoft.com/");
     }
 }
