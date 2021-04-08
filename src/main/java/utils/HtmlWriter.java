@@ -24,7 +24,6 @@ public class HtmlWriter {
                 outputStream.close();
             } catch (IOException e) {
                 logger.error("IOException happened!", e);
-                e.printStackTrace();
             }
         }
     }
