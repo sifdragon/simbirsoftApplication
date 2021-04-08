@@ -6,9 +6,10 @@ import java.util.*;
 
 public class FreqCount {
     public static List<Word> count(String arr[]){
+        // // countList для хранения Word'ов со словом-количеством
         List<Word> countList = new ArrayList<>();
-        Map<String, Word> countMap = new HashMap<String, Word>();
         int n = arr.length;
+        // Создаем булевый массив для флагов посещения и заполняем flase, тк еще ничего не посетили
         boolean visited[] = new boolean[n];
 
         Arrays.fill(visited, false);
