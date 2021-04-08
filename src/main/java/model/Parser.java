@@ -23,7 +23,6 @@ public class Parser {
 
         } catch (IOException e) {
             logger.error("IOException happened!", e);
-            e.printStackTrace();
         }
         return "An error has occurred";
     }
